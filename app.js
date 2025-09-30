@@ -15,7 +15,6 @@ app.get("/", (req, res) => {
 module.exports = app;
 
 const ApiError = require("./app/api-error");
-const app = express();
 
 app.use("/api/contacts", contactsRouter);
 // handle 404 response
